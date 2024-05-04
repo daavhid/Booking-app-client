@@ -1,0 +1,26 @@
+@font-face {
+    font-family: poppins;
+    src: url('./assets/fonts/static/OpenSans-Regular.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .logo{
+        font-family: poppins;
+    }
+    .active{
+        @apply border border-white/45 rounded-[20px] p-[10px]
+    }
+    span{
+        @apply text-gray-300
+    }
+   
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+
